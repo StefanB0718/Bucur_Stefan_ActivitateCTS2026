@@ -68,32 +68,39 @@ public class Pacient {
             this.halatInterior = false;
         }
 
-        public void setNume(String nume) {
+        public PacientBuilder setNume(String nume) {
             this.nume = nume;
+            return this;
         }
 
-        public void setNrTelefon(String nrTelefon) {
+        public PacientBuilder setNrTelefon(String nrTelefon) {
             this.nrTelefon = nrTelefon;
+            return this;
         }
 
-        public void setAdresa(String adresa) {
+        public PacientBuilder setAdresa(String adresa) {
             this.adresa = adresa;
+            return this;
         }
 
-        public void setPatRabatabil(boolean patRabatabil) {
+        public PacientBuilder setPatRabatabil(boolean patRabatabil) {
             this.patRabatabil = patRabatabil;
+            return this;
         }
 
-        public void setMicDejunInclus(boolean micDejunInclus) {
+        public PacientBuilder setMicDejunInclus(boolean micDejunInclus) {
             this.micDejunInclus = micDejunInclus;
+            return this;
         }
 
-        public void setHalatInterior(boolean halatInterior) {
+        public PacientBuilder setHalatInterior(boolean halatInterior) {
             this.halatInterior = halatInterior;
+            return this;
         }
 
-        public void setPapuciCamera(boolean papuciCamera) {
+        public PacientBuilder setPapuciCamera(boolean papuciCamera) {
             this.papuciCamera = papuciCamera;
+            return this;
         }
 
         @Override
