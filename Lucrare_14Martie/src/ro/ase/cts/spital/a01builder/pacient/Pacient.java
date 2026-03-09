@@ -49,7 +49,21 @@ public class Pacient {
     }
 
     public static PacientBuilder builder() {
+
         return new PacientBuilder();
+    }
+    @Override
+    public String toString() {
+        StringBuilder sb = new StringBuilder();
+        sb.append("Pacient: ").append(nume).append("\n");
+        sb.append("Telefon: ").append(nrTelefon).append("\n");
+        sb.append("Adresa: ").append(adresa).append("\n");
+        sb.append("Facilitati extra:\n");
+        sb.append("  - Pat rabatabil: ").append(patRabatabil ? "DA" : "NU").append("\n");
+        sb.append("  - Mic dejun inclus: ").append(micDejunInclus ? "DA" : "NU").append("\n");
+        sb.append("  - Papuci de camera: ").append(papuciCamera ? "DA" : "NU").append("\n");
+        sb.append("  - Halat interior: ").append(halatInterior ? "DA" : "NU");
+        return sb.toString();
     }
 
     public static class PacientBuilder implements Builder {
