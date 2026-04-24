@@ -1,9 +1,7 @@
 package ro.ase.cts.Program;
 
 
-import ro.ase.cts.clase.EnumTipMijlocTransport;
-import ro.ase.cts.clase.InterfataMijlocTransport;
-import ro.ase.cts.clase.MijlocTransportFactory;
+import ro.ase.cts.clase.*;
 
 public class Program {
     public static void main(String[] args) {
@@ -16,6 +14,16 @@ public class Program {
             a1.descriere();
             a2.descriere();
             t1.descriere();
+
+            ITransportSuprafata transportSuprafata = new ValidatorSuprafata();
+                transportSuprafata.validareBilet("BILET-123");
+                transportSuprafata.validareAbonament("ABO-456");
+
+            System.out.println();
+            ITransportSuprafata validatorMetrou = new AdapterMetrou(new SistemMetrou());
+            validatorMetrou.validareBilet("BILET-123");
+            validatorMetrou.validareAbonament("ABO-456");
+
 
 
             System.out.println("a1 == a2: " + (a1 == a2));
