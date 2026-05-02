@@ -56,6 +56,15 @@ public class Program {
         flotaSTB.adaugaElement(grupMari);
         System.out.println(flotaSTB.getDescriere());
 
+        IBilet biletNormal = new BiletStandard("001 STB", 3);
+        biletNormal.printeaza();
+
+        System.out.println();
+
+        IBilet biletDeSarbatoare = new BiletMesajLaMultiAni(
+                new BiletStandard("002 STB", 3));
+        biletDeSarbatoare.printeaza();
+
 
     }
 }
