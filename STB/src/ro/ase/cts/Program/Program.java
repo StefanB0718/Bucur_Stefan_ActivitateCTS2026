@@ -30,5 +30,14 @@ public class Program {
         } catch (Exception e) {
             System.out.println(e.getMessage());
         }
+        PanouControlUsi panou = new PanouControlUsi();
+
+        panou.butonModLiber();
+
+        System.out.println();
+
+        panou.butonDeschdiereFortata();
+
+
     }
 }
