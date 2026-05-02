@@ -1,0 +1,6 @@
+O bancă procesează cereri de creditare. Fiecare cerere trece printr-un lanț de verificări succesive:
+mai întâi se verifică dacă persoana nu este pe blacklist-ul ANAF,
+apoi dacă are o vechime minimă la locul de muncă (cel puțin 12 luni)
+și în final dacă salariul este suficient pentru a acoperi ratele (40% din salariu ≥ rata lunară).
+Dacă la oricare pas condiția nu e îndeplinită, cererea este respinsă.
+Dacă trece de toate verificările, creditul este aprobat.
