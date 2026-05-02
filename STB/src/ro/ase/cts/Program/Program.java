@@ -1,6 +1,7 @@
 package ro.ase.cts.Program;
 
-
+import ro.ase.cts.clase.AutobuzFlota;
+import ro.ase.cts.clase.GrupAutobuze;
 import ro.ase.cts.clase.*;
 
 public class Program {
@@ -25,7 +26,6 @@ public class Program {
             validatorMetrou.validareAbonament("ABO-456");
 
 
-
             System.out.println("a1 == a2: " + (a1 == a2));
         } catch (Exception e) {
             System.out.println(e.getMessage());
@@ -37,6 +37,24 @@ public class Program {
         System.out.println();
 
         panou.butonDeschdiereFortata();
+
+        GrupAutobuze flotaSTB = new GrupAutobuze("Flota STB");
+
+        GrupAutobuze grupMici = new GrupAutobuze("Grupuri mici (10 locuri)");
+        grupMici.adaugaElement(new AutobuzFlota("Mercedes", "Sprinter", 10));
+        grupMici.adaugaElement(new AutobuzFlota("Ford", "Transit", 10));
+
+        GrupAutobuze grupMedii = new GrupAutobuze("Grupuri medii (30 locuri)");
+        grupMedii.adaugaElement(new AutobuzFlota("Isuzu", "Citibus", 30));
+
+        GrupAutobuze grupMari = new GrupAutobuze("Grupuri mari (50 locuri)");
+        grupMari.adaugaElement(new AutobuzFlota("MAN", " City", 50));
+        grupMari.adaugaElement(new AutobuzFlota("Mercedes", "Citaro", 50));
+
+        flotaSTB.adaugaElement(grupMici);
+        flotaSTB.adaugaElement(grupMedii);
+        flotaSTB.adaugaElement(grupMari);
+        System.out.println(flotaSTB.getDescriere());
 
 
     }
