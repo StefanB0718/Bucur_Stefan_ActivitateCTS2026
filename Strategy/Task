@@ -1,0 +1,5 @@
+În cadrul restaurantului, pentru fiecare produs din meniu există informații despre numărul de
+calorii, carbohidrați și alți macronutrienți. Clientul poate cere ospătarului să îi aleagă un meniu ținând
+cont de regimul pe care îl urmează: minimizare de calorii sau minimizare de carbohidrați.
+Să se implementeze modulul ce oferă posibilitatea clientului de a-și alege tehnica de selecție a unui
+produs din lista de produse disponibile.
