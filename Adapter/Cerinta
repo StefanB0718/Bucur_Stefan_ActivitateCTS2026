@@ -1,0 +1,5 @@
+În restaurantul CaruCuBere există un software care calculează discountul pentru clienți pe baza
+istoricului evenimentelor organizate. Restaurantul BerariaH are deja propriul software de calcul al
+discountului, dar cu altă interfață. Restaurantul CaruCuBere este cumpărat de restaurantul BerariaH,
+iar noul modul trebuie să permită folosirea clasei din restaurantul CaruCuBere în aplicația restaurantului
+BerariaH, fără modificarea codului existent din restaurantul CaruCuBere.
