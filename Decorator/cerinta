@@ -1,0 +1,5 @@
+In cadrul restaurantului, se pot comanda diferite tipuri pt pizza. S-a introdus o noua optiune
+de alegere, CheesePizza — un blat cu margini cu branza. Aceasta optiune creste pretul unei pizza cu
+10 lei fata de pretul de baza. De asemenea, clientii pot adauga diferite sosuri cu un grad diferit de iuteala.
+Sa se implementeze modulul ce adauga aceste noi optiuni fara a modifica codul deja existent.
+Pot fi aplicate mai multe optiuni pt pizza - blat sau sosuri.
