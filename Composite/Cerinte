@@ -1,0 +1,4 @@
+În cadrul restaurantului, se doreste implementarea unui modul care sa
+gestioneze meniul care este pus la dispozitia clientilor. Meniul are mai multe tipuri de
+produse (bauturi și mancare). Bauturile pot fi cu alcool sau fara alcool, iar mancarurile de
+tip pizza sau burger.
