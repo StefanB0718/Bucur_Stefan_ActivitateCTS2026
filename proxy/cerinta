@@ -1,0 +1,5 @@
+Restaurantul organizează diverse petreceri, la care poate participa orice client indiferent
+de vârstă. S-a decis ca pentru petrecerea de Crăciun să se introducă o vârstă minimă de
+participare (18 ani), întrucât programul nu este destinat clienților cu vârsta sub 18 ani.
+Se cere implementarea unui modul intermediar care să permită înregistrarea la petrecere doar a
+clienților care au împlinit vârsta de 18 ani.
