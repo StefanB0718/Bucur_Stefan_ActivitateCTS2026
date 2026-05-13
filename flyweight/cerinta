@@ -1,0 +1,8 @@
+În cadrul restaurantului, la printarea unui bon se dorește să se afișeze un mesaj "simpatic"
+care să amuzeze clienții. Există un număr limitat de mesaje standard alese de departamentul
+de marketing (TIP1, TIP2, TIP3, etc.). Odata ce un bon este închis și trebuie prezentat clientului,
+acel bon va conține: numărul mesei, costul total și un mesaj din cele existente.
+Problema de optimizare: Într-un restaurant se generează un număr foarte mare de bonuri
+(zeci de mii zilnic), iar tipurile de mesaje afișate sunt limitate. Fără optimizare, s-ar
+crea mii de obiecte mesaje identice în memorie, consumând resurse inutile.
+Soluție: Reutilizați aceleași obiecte mesaje pentru mai multe bonuri diferite.
