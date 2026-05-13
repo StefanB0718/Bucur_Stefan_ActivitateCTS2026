@@ -1,0 +1,9 @@
+Pentru rezervarea unei petreceri in cadrul unui restaurant, managerul trebuie sa:
+Verifice disponibilitatea salilor: Sa se asigure ca exista o sala libera pentru data solicitata,
+in functie de numarul de participanti asteptati. Fiecare sala are o capacitate minima si maxima
+de participanti.
+Verifice disponibilitatea bucatarilor: Sa se verifice daca exista un numar suficient de bucatari
+disponibili in data solicitata. Diferitii bucatari pot avea programari deja stabilite.
+Accepte sau respinga cererea: Rezervarea se aproba doar daca sunt indeplinite atat
+ conditia salilor CAT SI conditia bucatarilor. Daca oricare dintre conditii nu este indeplinita,
+ cererea se respinge.te realizarea unui modul care să simplifice procesul de rezervare
